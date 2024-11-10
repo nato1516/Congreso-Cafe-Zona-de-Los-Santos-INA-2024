@@ -138,18 +138,21 @@ header {
     font-size: 70px;
     color: var(--Color-Detalles);
     text-transform: uppercase;
+    font-weight: 700;
 }
 .texto_diferente_2 {
     font-family: var(--Fuente-H1);
     font-size: 60px;
     color: var(--Color-Detalles);
     text-transform: uppercase;
+    font-weight: 700;
 }
 .texto_diferente_3 {
     font-family: var(--Fuente-H1);
     font-size: 60px;
     color: var(--Color-Detalles);
     text-transform: uppercase;
+    font-weight: 700;
 }
 .p_banner {
     font-family: var(--Fuente-Parrafos);
