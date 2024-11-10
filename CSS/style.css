@@ -2513,7 +2513,7 @@ footer a {
 }
 @media (max-width: 770px) {
     .icon-text {
-        font-size: 12px;
+        font-size: 11px;
     }
     .icon-box img {
         width: 70px;
