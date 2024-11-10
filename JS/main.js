@@ -31,39 +31,36 @@ document.getElementById('Nov14').onclick = function () {
         showConfirmButton: false // Oculta el botón de "OK"
     });
 };
-//JAVASCRIPT DE LAS METRICAS
-let avisador = false; //Variable para controlar la animación
+// JAVASCRIPT DE LAS MÉTRICAS
+let avisador = false; // Variable para controlar la animación
 window.addEventListener('scroll', function () {
-    //necesito una constante que me guarde el circulo que va a rellenar o lo que va a cambiar
+    // Necesito una constante que guarde el círculo que va a rellenar o lo que va a cambiar
     const circuloRelleno = document.querySelector('.cfront');
     const circuloRelleno2 = document.querySelector('.cfront2');
     const circuloRelleno3 = document.querySelector('.cfront3');
-    //necesito una constante que me guarde el texto que va a aumentar según el porcentaje que haya
+    // Necesito una constante que guarde el texto que va a aumentar según el porcentaje
     const porcentajeBase = document.getElementById('porcentaje');
     const porcentajeBase2 = document.getElementById('porcentaje2');
     const porcentajeBase3 = document.getElementById('porcentaje3');
-    //ahora lo que hago es que haga el cambio SI en el eje Y esta por arriba de lo que se pide y que además el avisador sea falso (lo que significa que la animación no se ha hecho)
-    if (scrollY > 4650 && !avisador) {
-        // ahora necesito decirle los cambios que va a hacer
-        //Que se rellene hasta donde son los datos, se coloca por ejemplo si es completo 50 ya que es la mitad del circulo
+    // Obtener la posición de la sección en la pantalla
+    const section = document.querySelector('.alcance-section'); // UBICAR EN QUE SECCION SE ACTIVE
+    const sectionPosition = section.getBoundingClientRect().top; // Posición superior de la sección
+    const windowHeight = window.innerHeight; // Altura de la ventana del navegador
+    // Verificar si la sección está en la vista y si la animación no se ha activado antes
+    if (sectionPosition < windowHeight && !avisador) {
+        // Ahora, realiza los cambios
         circuloRelleno.style.strokeDasharray = "10 100";
         circuloRelleno2.style.strokeDasharray = "20 100";
-        circuloRelleno3.style.strokeDasharray = "30 100 ";
-        // Inicializar el porcentaje cambiado, ya que es de 0 hasta donde se quiere
-        var porcentajeCambiado = 0;
-        var porcentajeCambiado2 = 0;
-        var porcentajeCambiado3 = 0;
-        //Ahora voy a usar un ciclo porque necesito que me aumente hasta que sea la misma cantidad del strokeDasharray
-        //Uso interval porque es mas efectivo para animaciones como estas que se veran
-        const interval = this.setInterval(() => {
+        circuloRelleno3.style.strokeDasharray = "30 100";
+        // Inicializar el porcentaje cambiado
+        let porcentajeCambiado = 0;
+        let porcentajeCambiado2 = 0;
+        let porcentajeCambiado3 = 0;
+        // Usar setInterval para la animación
+        const interval = setInterval(() => {
             if (porcentajeCambiado < 10) {
-                //que vaya aumentando de uno en uno
                 porcentajeCambiado++;
-                //Ahora necesito que se actualice el texto en el html con el cambio que ira realizando, dentro del ciclo para que se vaya viendo la animación
                 porcentajeBase.textContent = porcentajeCambiado + "%";
-            } else {
-                this.clearInterval // Para que se detenga el intervalo o ciclo si llega a 30
-                avisador = true; // Marcar que la animación ya fue hecha
             }
             if (porcentajeCambiado2 < 20) {
                 porcentajeCambiado2++;
@@ -73,7 +70,12 @@ window.addEventListener('scroll', function () {
                 porcentajeCambiado3++;
                 porcentajeBase3.textContent = porcentajeCambiado3 + "%";
             }
-        }, 45); // Ahora de acuerdo con la estructura de interval se ajusta el tiempo en el que se ira viendo los cambios
+            // Detener el intervalo si todas las animaciones han terminado
+            if (porcentajeCambiado >= 10 && porcentajeCambiado2 >= 20 && porcentajeCambiado3 >= 30) {
+                clearInterval(interval);
+                avisador = true; // Marcar que la animación ya fue hecha
+            }
+        }, 45); // Tiempo de intervalo para la animación
     }
 });
 //JAVASCRIPT PARA LOS STANDS
