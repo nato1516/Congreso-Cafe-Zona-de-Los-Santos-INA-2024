@@ -3043,8 +3043,8 @@ footer a {
 }
 @media (max-width: 400px) {
     .icon-text {
-        font-size: 9px;
-        width: 80px;
+        font-size: 11px;
+        width: 175px;
     }
     .icon-box img {
         width: 60px;
@@ -3182,6 +3182,10 @@ footer a {
 @media (max-width: 360px) {
     .titulo_banner_1{
         margin-left: -80px;
+    }
+    .icon-text{
+        font-size: 10px;
+        width: 151px;
     }
 }
 @media (max-width: 321px) {
