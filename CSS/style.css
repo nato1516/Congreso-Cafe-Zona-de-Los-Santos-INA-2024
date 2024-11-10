@@ -9,11 +9,18 @@
 /* IMPORTACIÓN DE FUENTES */
 @font-face {
     font-family: "Ranade";
-    src: url(../Fuentes/Ranade_Complete/Ranade_Complete/Fonts/TTF/Ranade-Variable.ttf);
+    src: url('../Fuentes/Ranade_Complete/Ranade_Complete/Fonts/TTF/Ranade-Variable.eot?#iefix') format('embedded-opentype'), /* IE6-IE9 */
+         url('../Fuentes/Ranade_Complete/Ranade_Complete/Fonts/WOFF/Ranade-Variable.woff') format('woff'), /* Modern browsers */
+         url('../Fuentes/Ranade_Complete/Ranade_Complete/Fonts/TTF/Ranade-Variable.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../Fuentes/Ranade_Complete/Ranade_Complete/Fonts/SVG/Ranade-Variable.svg#Ranade') format('svg'); /* Legacy iOS */
 }
+
 @font-face {
     font-family: "Supreme";
-    src: url(../Fuentes/Supreme_Complete/Supreme_Complete/Fonts/TTF/Supreme-Variable.ttf);
+    src: url('../Fuentes/Supreme_Complete/Supreme_Complete/Fonts/TTF/Supreme-Variable.eot?#iefix') format('embedded-opentype'), /* IE6-IE9 */
+         url('../Fuentes/Supreme_Complete/Supreme_Complete/Fonts/WOFF/Supreme-Variable.woff') format('woff'), /* Modern browsers */
+         url('../Fuentes/Supreme_Complete/Supreme_Complete/Fonts/TTF/Supreme-Variable.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../Fuentes/Supreme_Complete/Supreme_Complete/Fonts/SVG/Supreme-Variable.svg#Supreme') format('svg'); /* Legacy iOS */
 }
 /* VARIABLES */
 :root {
