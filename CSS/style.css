@@ -1768,7 +1768,7 @@ footer a {
     }
      /*============================= INICIO SECCION COLABORADORES =====================================*/
      .contenido_colaboradores{
-        gap: 50px;
+        gap: 50px !important;
     }
     #img_colaboradores1{
         width: 496px;
