@@ -1822,6 +1822,9 @@ footer a {
     .carousel-control-next {
         display: none;
     }
+    .overlay-right{
+        transform: translateX(545px);
+    }
 }
 @media (max-width: 1270px) {
     .texto_banner_1{
