@@ -651,17 +651,10 @@ AGENDA
     left: 270px;
     bottom: 0;
 }
-.Nov12 {
-    background: url(../img/Noviembre12.png);
-    background-size: cover;
-    background-position: center;
-    margin-right: 10%;
-}
 .Nov13 {
     background: url(../img/Noviembre13.png);
     background-size: cover;
     background-position: center;
-    margin-left: 10%;
 }
 .Nov14 {
     background: url(../img/Noviembre14.png);
