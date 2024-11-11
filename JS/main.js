@@ -50,8 +50,8 @@ window.addEventListener('scroll', function () {
     if (sectionPosition < windowHeight && !avisador) {
         // Ahora, realiza los cambios
         circuloRelleno.style.strokeDasharray = "10 100";
-        circuloRelleno2.style.strokeDasharray = "25 100";
-        circuloRelleno3.style.strokeDasharray = "40 100";
+        circuloRelleno2.style.strokeDasharray = "20 100";
+        circuloRelleno3.style.strokeDasharray = "30 100";
         // Inicializar el porcentaje cambiado
         let porcentajeCambiado = 0;
         let porcentajeCambiado2 = 0;
@@ -71,7 +71,7 @@ window.addEventListener('scroll', function () {
                 porcentajeBase3.textContent = porcentajeCambiado3 + "%";
             }
             // Detener el intervalo si todas las animaciones han terminado
-            if (porcentajeCambiado >= 10 && porcentajeCambiado2 >= 25 && porcentajeCambiado3 >= 40) {
+            if (porcentajeCambiado >= 10 && porcentajeCambiado2 >= 30 && porcentajeCambiado3 >= 60) {
                 clearInterval(interval);
                 avisador = true; // Marcar que la animación ya fue hecha
             }
