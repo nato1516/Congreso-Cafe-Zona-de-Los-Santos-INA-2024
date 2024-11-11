@@ -51,7 +51,7 @@ window.addEventListener('scroll', function () {
         // Ahora, realiza los cambios
         circuloRelleno.style.strokeDasharray = "10 100";
         circuloRelleno2.style.strokeDasharray = "20 100";
-        circuloRelleno3.style.strokeDasharray = "30 100";
+        circuloRelleno3.style.strokeDasharray = "35 100";
         // Inicializar el porcentaje cambiado
         let porcentajeCambiado = 0;
         let porcentajeCambiado2 = 0;
