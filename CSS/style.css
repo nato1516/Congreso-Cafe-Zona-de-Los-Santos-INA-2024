@@ -942,6 +942,7 @@ GALERIA
 .galeria {
     background-color: var(--Color-Fondo-Claro);
     overflow: hidden;
+    max-height: 1350px !important;
 }
 /* contenedor principal de imagenes y texto laterales */
 .main-container {
