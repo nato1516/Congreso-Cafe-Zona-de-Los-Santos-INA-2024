@@ -393,6 +393,7 @@ QUIENES SOMOS SOBRE NOSOTROS
 }
 .text__cont h2{
     font-family: 'Ranade';
+    font-weight: bold;
 }
 .text__cont p{
     font-family: 'Supreme';
@@ -1296,6 +1297,7 @@ COMENTARIOS
     color: var(--Tipografia-Clara);
     text-align: center;
     padding: 20px 0px;
+    font-weight: bold;
 }
 .comentarios {
     background-color: var(--Color-Fondo-Oscuro);
