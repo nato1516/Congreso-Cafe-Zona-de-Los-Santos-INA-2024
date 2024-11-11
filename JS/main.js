@@ -50,8 +50,8 @@ window.addEventListener('scroll', function () {
     if (sectionPosition < windowHeight && !avisador) {
         // Ahora, realiza los cambios
         circuloRelleno.style.strokeDasharray = "10 100";
-        circuloRelleno2.style.strokeDasharray = "20 100";
-        circuloRelleno3.style.strokeDasharray = "30 100";
+        circuloRelleno2.style.strokeDasharray = "25 100";
+        circuloRelleno3.style.strokeDasharray = "40 100";
         // Inicializar el porcentaje cambiado
         let porcentajeCambiado = 0;
         let porcentajeCambiado2 = 0;
@@ -62,11 +62,11 @@ window.addEventListener('scroll', function () {
                 porcentajeCambiado++;
                 porcentajeBase.textContent = porcentajeCambiado + "%";
             }
-            if (porcentajeCambiado2 < 20) {
+            if (porcentajeCambiado2 < 30) {
                 porcentajeCambiado2++;
                 porcentajeBase2.textContent = porcentajeCambiado2 + "%";
             }
-            if (porcentajeCambiado3 < 30) {
+            if (porcentajeCambiado3 < 60) {
                 porcentajeCambiado3++;
                 porcentajeBase3.textContent = porcentajeCambiado3 + "%";
             }
