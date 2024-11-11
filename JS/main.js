@@ -71,7 +71,7 @@ window.addEventListener('scroll', function () {
                 porcentajeBase3.textContent = porcentajeCambiado3 + "%";
             }
             // Detener el intervalo si todas las animaciones han terminado
-            if (porcentajeCambiado >= 10 && porcentajeCambiado2 >= 20 && porcentajeCambiado3 >= 30) {
+            if (porcentajeCambiado >= 10 && porcentajeCambiado2 >= 25 && porcentajeCambiado3 >= 40) {
                 clearInterval(interval);
                 avisador = true; // Marcar que la animación ya fue hecha
             }
