@@ -1511,6 +1511,7 @@ STANDS
     text-align: center;
     font-family: var(--Fuente-H2);
     font-size: 48px;
+    font-weight: bold;
 }
 .card_standBody {
     background-color: #261b15;
@@ -2221,6 +2222,9 @@ footer a {
     }
     .titulo-inq {
         font-size: 38px;
+        font-family: 'Ranade', sans-serif;
+        font-size: 48px;
+        font-weight: bold;
     }
     .inq-text {
         font-size: 19px;
