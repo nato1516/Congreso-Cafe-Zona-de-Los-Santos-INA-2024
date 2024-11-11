@@ -3,22 +3,14 @@ document.getElementById('button__generalidades').onclick = function () {
     event.preventDefault()
     Swal.fire({
         showCloseButton: true, // Muestra la X para cerrar
-        html: '<h3>Fechas:</h3><h4 class="fw-normal">Martes 12 de Noviembre al</h4><h4 class="fw-normal">Jueves 14 de Noviembre</h4><br><br><h3>Lugar:</h3><h4 class="fw-normal">Gimnasio del INA CPESS Los Santos, Abejonal de León Cortes</h4><br><br><h3>Participantes:</h3><h4 class="fw-normal">200 Participantes, cupo limitado.</h4><h4 class="fw-normal">Personas agricultoras de café y representantes del sector productivo de todo el país</h4>',
-        showConfirmButton: false // Oculta el botón de "OK"
-    });
-};
-document.getElementById('Nov12').onclick = function () {
-    event.preventDefault()
-    Swal.fire({
-        html: '<h3>Fechas:</h3><h4 class="fw-normal">Martes 12 de Noviembre al</h4><h4 class="fw-normal">Jueves 14 de Noviembre</h4><br><br><h3>Lugar:</h3><h4 class="fw-normal">Gimnasio del INA CPESS Los Santos, Abejonal de León Cortes</h4><br><br><h3>Participantes:</h3><h4 class="fw-normal">200 Participantes, cupo limitado.</h4><h4 class="fw-normal">Personas agricultoras de café y representantes del sector productivo de todo el país</h4>',
-        showCloseButton: true, // Muestra la X para cerrar
+        html: '<h3>Fechas:</h3><h4 class="fw-normal">Miércoles 13 de Noviembre</h4><h4 class="fw-normal">Jueves 14 de Noviembre</h4><br><br><h3>Lugar:</h3><h4 class="fw-normal">Gimnasio del INA CPESS Los Santos, Abejonal de León Cortes</h4><br><br><h3>Participantes:</h3><h4 class="fw-normal">200 Participantes, cupo limitado.</h4><h4 class="fw-normal">Personas agricultoras de café y representantes del sector productivo de todo el país</h4>',
         showConfirmButton: false // Oculta el botón de "OK"
     });
 };
 document.getElementById('Nov13').onclick = function () {
     event.preventDefault()
     Swal.fire({
-        html: '<h3>Fechas:</h3><h4 class="fw-normal">Martes 12 de Noviembre al</h4><h4 class="fw-normal">Jueves 14 de Noviembre</h4><br><br><h3>Lugar:</h3><h4 class="fw-normal">Gimnasio del INA CPESS Los Santos, Abejonal de León Cortes</h4><br><br><h3>Participantes:</h3><h4 class="fw-normal">200 Participantes, cupo limitado.</h4><h4 class="fw-normal">Personas agricultoras de café y representantes del sector productivo de todo el país</h4>',
+        html: '<div class="text-start"><h3>Charlas</h3><br><h4 class="fw-normal">Charla 1: Acciones NAMA Café en Costa Rica.</h4><h4 class="fw-normal">Charla 2: Manejo de la salud del suelo en Café.</h4><h4 class="fw-normal">Charla 3: Combate de la antracnosis en el cultivo de café-MSc.</h4><h4 class="fw-normal">Charla 4: Nutrición, bioreguladores y antiestres en el cultivo de café.</h4><h4 class="fw-normal">Charla 5: Acciones climáticas para el manejo adaptativo del cultivo de café.</h4><h4 class="fw-normal">Charla 6: Experiencias del posicionamiento del café a nivel internacional.</h4><h4 class="fw-normal">Charla 7: Programa de financiamiento al sector cafetalero.</h4></div>',
         showCloseButton: true, // Muestra la X para cerrar
         showConfirmButton: false // Oculta el botón de "OK"
     });
@@ -26,7 +18,7 @@ document.getElementById('Nov13').onclick = function () {
 document.getElementById('Nov14').onclick = function () {
     event.preventDefault()
     Swal.fire({
-        html: '<h3>Fechas:</h3><h4 class="fw-normal">Martes 12 de Noviembre al</h4><h4 class="fw-normal">Jueves 14 de Noviembre</h4><br><br><h3>Lugar:</h3><h4 class="fw-normal">Gimnasio del INA CPESS Los Santos, Abejonal de León Cortes</h4><br><br><h3>Participantes:</h3><h4 class="fw-normal">200 Participantes, cupo limitado.</h4><h4 class="fw-normal">Personas agricultoras de café y representantes del sector productivo de todo el país</h4>',
+        html: '<div class="text-start"><h3>Día de Campo</h3><h4 class="fw-normal">4 estaciones:</h4><br><h4 class="fw-normal">1. Manejo y Uso de Bioinsumos en la producción de café: experiencias y resultados.</h4><h4 class="fw-normal">2. Uso de drones en el cultivo del café.</h4><h4 class="fw-normal">3. Uso de Fertirriego y Mediciones en el Cultivo del café.</h4><h4 class="fw-normal">4. Material genético Híbrido de café.</h4></div>',
         showCloseButton: true, // Muestra la X para cerrar
         showConfirmButton: false // Oculta el botón de "OK"
     });
