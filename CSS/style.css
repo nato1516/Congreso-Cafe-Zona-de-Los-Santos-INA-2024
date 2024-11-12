@@ -2609,10 +2609,10 @@ footer a {
         margin-bottom: 8px;
     }
     .colaboradores h2{
-        font-size: 30px !important;
+        font-size: 35px !important;
     }
     .nucleo h2{
-        font-size: 25px !important;
+        font-size: 20px !important;
     }
 }
 @media (max-width: 768px) {
