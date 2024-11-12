@@ -724,87 +724,108 @@ EXPOSITORES
     height: 176px;
     border-radius: 50%;
 }
+.imagen-9{
+    margin-top: 30px;
+}
 /* texto */
 .nombre-expositor {
     font-family: var(--Fuente-Parrafos);
     font-size: 14px;
     font-weight: var(--Font-Bold);
 }
+
 .profesion-expositor {
     font-family: var(--Fuente-Parrafos);
     font-size: 14px;
     font-weight: var(--Font-Bold);
 }
+
 .text-expositores p {
     font-size: 14px;
     text-align: center;
 }
+
 .text-expositores {
     width: 350px;
     height: 216px;
     margin: -120px auto 0px;
+
 }
+
 .bandera-expositores {
     display: flex;
     justify-content: center;
 }
+
 .carrusel-expo {
     height: auto;
 }
+
 .contendor-expositores-titu {
     max-width: 1440px;
 }
-/* CARACTERISTICAS DE LA SECCION DE MOBIL SOBRE LOS EXPOSITORES */
+
+* CARACTERISTICAS DE LA SECCION DE MOBIL SOBRE LOS EXPOSITORES */
 /* ESTA ES LA ESTETICA */
 .info-expo-movil {
     display: flex;
 }
+
 .ver-mas {
     width: 65%;
     margin-left: 115px;
     display: flex;
     justify-content: left;
 }
+
 .ver-mas p {
     font-family: var(--Fuente-Parrafos);
     font-size: 14px;
     margin-left: 10px;
     color: #373737;
 }
+
 a {
     text-decoration: none;
 }
+
 .CARDSS {
-    padding: 15px 0;
+    padding: 15PX 0;
 }
+
 .info-expo-movil p {
     margin: 0;
 }
+
 .texto-expositores-movil {
     width: 384px;
     margin: 20px 5px 0px;
 }
+
 .nombre-expositor-movil {
     font-family: var(--Fuente-Parrafos);
     font-size: 16px;
     font-weight: var(--Font-Bold);
 }
+
 .profesion-expositor-movil {
     font-family: var(--Fuente-Parrafos);
     font-size: 16px;
     font-weight: var(--Font-Bold);
 }
+
 #Expositores-movil {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .light-box {
     position: fixed;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.581);
-    transition: transform 0.3s ease-in-out;
+    transition: transform .3s ease-in-out;
     width: 100%;
     height: 100vh;
     z-index: 1000;
@@ -812,11 +833,13 @@ a {
     justify-content: center;
     align-items: center;
     transform: scale(0);
-    transition: trasform 0.3s ease-in-out;
+    transition: trasform .3s ease-in-out;
 }
+
 .light-box:target {
     transform: scale(1);
 }
+
 .cierre {
     display: flex;
     justify-content: center;
@@ -832,15 +855,19 @@ a {
     line-height: 40px;
     border-radius: 50%;
 }
+
 .imagen-expositores-movil {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin: 30px 10px 0px 5px;
 }
+
 .texto-expositor-movil p {
     font-size: 16px;
+
 }
+
 .card-expositores-movil {
     background-color: #ca873b;
     background-repeat: repeat-x;
@@ -852,6 +879,8 @@ a {
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
+
+
 .card-comentario-grande {
     width: 750px;
     display: flex;
@@ -859,9 +888,11 @@ a {
     background-color: rgb(88, 90, 90);
     border-radius: 30px;
 }
+
 .texto-comentario-grande {
     margin: 10% 10px 0;
 }
+
 .EXPOSITORES-movil {
     display: none;
 }
@@ -1297,7 +1328,6 @@ COMENTARIOS
     color: var(--Tipografia-Clara);
     text-align: center;
     padding: 20px 0px;
-    font-weight: bold;
 }
 .comentarios {
     background-color: var(--Color-Fondo-Oscuro);
@@ -1309,9 +1339,10 @@ COMENTARIOS
     display: flex;
     border-radius: 20px;
     margin: 15px 5px 0px;
+    padding-bottom: 10px;
 }
 .img-comentarios {
-    width: 70px;
+    width: 70PX;
     height: 70px;
     border-radius: 50%;
     margin-right: 10px;
@@ -1329,7 +1360,7 @@ COMENTARIOS
     font-family: var(--Fuente-Parrafos);
     font-weight: var(--Font-Bold);
 }
-.comentario9 {
+.comentario9{
     display: none;
 }
 /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
@@ -2357,7 +2388,7 @@ footer a {
         display: flex;
         justify-content: center;
     }
-    .card-expositores-movil {
+      .card-expositores-movil {
         background: url(../img/Fondo-expositores.png);
         background-repeat: repeat-x;
         background-size: cover;
@@ -2368,14 +2399,15 @@ footer a {
         border-top-left-radius: 30px;
         border-bottom-right-radius: 30px;
     }
-    .card-expositores {
-        height: 520px;
+    .card-expositores{
+        height: 470PX;
     }
     .img-expositores {
         top: -250px;
     }
-    .text-expositores {
-        margin-top: -220px;
+    .text-expositores{
+        margin-top: -220PX;
+        width: 90%;
     }
     .linea-1,
     .linea-2,
@@ -2489,7 +2521,7 @@ footer a {
     }
     .card-expositores {
         width: 400px;
-        height: 520px;
+        height: 470px;
         margin: 65px 0px 0;
     }
     .img-expositores {
@@ -2523,6 +2555,12 @@ footer a {
         display: flex;
         justify-content: start;
         margin: 10px 0px;
+    }
+    .foto-expositores {
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        margin-top: -80px;
     }
 }
 @media (max-width: 781px) {
@@ -2900,6 +2938,18 @@ footer a {
         font-size: 18px !important;
     }
 }
+@media (max-width: 721.30px){
+    .container-comentarios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-expositores {
+        width: 400px;
+        height: 450px;
+        margin: 65px 0px 0;
+    }
+}
 @media (max-width: 660px) {
     .titulo_banner_1 {
         margin: 0 auto;
@@ -2991,7 +3041,7 @@ footer a {
     }
     .card-expositores {
         width: 355px;
-        height: 500px;
+        height: 470px;
     }
     .img-expositores {
         top: -180px;
@@ -3009,6 +3059,11 @@ footer a {
     }
     .text-expositores {
         margin-top: -170px;
+    }
+    .container-comentarios{
+        text-align: center;
+        display: flex;
+        justify-content: center;
     }
     .coffee-bean-1 {
         top: 30px;
@@ -3098,6 +3153,73 @@ footer a {
     }
     span {
         font-weight: var(--Font-Medium);
+    }
+}
+@media (max-width: 395px) {
+    .info-expo-movil {
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+    }
+    .CARDSS {
+        padding: 30px 0;
+    }
+    .CARDSS p {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .imagen-expositores-movil {
+        margin: -50px;
+    }
+    .texto-expositores-movil {
+        margin-top: 50px;
+    }
+    .ver-mas {
+        margin: auto;
+        padding: 10px 0;
+    }
+    .card-expositores {
+        width: 280px;
+        height: 500px;
+        margin: 0;
+    }
+    .img-expositores {
+        top: -140px;
+    }
+    .foto-expositores {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: -80px;
+    }
+    .text-expositores p {
+        margin: 10px;
+        font-size: 13px;
+    }
+    .bandera-expositoress{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    .light-box {
+        background-color: rgba(0, 0, 0, 0.807);
+    }
+    .cierre {
+        right: 10px;
+        top: 8px;
+    }
+    .text-expositores {
+        margin-top: -140px;
+    }
+    .titulo-comentario{
+        font-size: 35px;
+    }
+    .container-comentarios{
+        padding-top: 0px;
+    }
+    .texto-comentario p{
+        margin: 0;
     }
 }
 @media (max-width: 394px) {
@@ -3253,4 +3375,60 @@ footer a {
     .overlay h3 {
         font-size: 6rem;
     }
+        .card-expositores {
+        width: 290px;
+        height: 400px;
+        margin: 55px 0px 0px;
+    }
+    .CARDSS p{
+        font-size: 14px;
+    }
+    .img-expositores {
+        top: -90px;
+    }
+    .profesion-expositor{
+        font-size: 14px;
+    }
+    .profesion-expositor-movil{
+        font-size: 14px;
+    }
+    .foto-expositores {
+        width: 120px;
+        height: 120px;
+        margin-top: -100px;
+    }
+
+    .cierre {
+        right: 10px;
+        top: 8px;
+    }
+    .text-expositores p{
+        margin: 5px 0px;
+        font-size: 13px;
+    }
+    .text-expositores {
+        margin-top: -90px;
+    }
+
+    .card-comentario {
+        background-color: var(--Color-Fondo-Claro);
+        width: 270px;
+        height: 250px;
+        display: flex;
+        border-radius: 20px;
+        margin: 15px 0px 0px;
+    }
+    .container-comentarios{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-expositores {
+        margin-bottom: 25px;
+    }
+    .titulo-comentario{
+        font-size: 30px;
+    }
+
 }
