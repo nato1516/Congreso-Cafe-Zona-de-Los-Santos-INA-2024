@@ -1540,6 +1540,9 @@ STANDS
 }
 .card-title {
     margin: 0;
+    font-size: 12px;
+    font-family: 'Ranade', sans-serif;
+    font-weight: bold;
 }
 .section-title {
     padding-top: 20px;
