@@ -1548,7 +1548,7 @@ STANDS
     text-align: center;
     font-family: var(--Fuente-H2);
     font-size: 48px;
-    font-weight: bold;
+    font-weight: var(--Font-Bold);
 }
 .card_standBody {
     background-color: #261b15;
