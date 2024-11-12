@@ -1207,7 +1207,7 @@ GALERIA
 .botones a {
     color: var(--Color-Fondo-Claro);
     font-family: var(--Fuente-Botones);
-    font-size: var(--Tamano-fuente-boton-web);
+    font-size: var(--Fuente-Botones);
 }
 .botones a:hover {
     color: var(--Color-Fondo-Claro);
