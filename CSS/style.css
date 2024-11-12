@@ -2370,6 +2370,11 @@ footer a {
     .EXPOSITORES {
         display: none;
     }
+    .info-expo-movil{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: rowX;
+    }
     .EXPOSITORES-movil {
         display: block;
         background-color: var(--Color-Fondo-Oscuro);
@@ -2387,7 +2392,7 @@ footer a {
         display: flex;
         justify-content: center;
     }
-      .card-expositores-movil {
+      .card- {
         background: url(../img/Fondo-expositores.png);
         background-repeat: repeat-x;
         background-size: cover;
