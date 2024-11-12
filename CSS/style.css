@@ -769,7 +769,6 @@ EXPOSITORES
 /* ESTA ES LA ESTETICA */
 .info-expo-movil {
     display: flex;
-    justify-content:space-between;
 }
 
 .ver-mas {
