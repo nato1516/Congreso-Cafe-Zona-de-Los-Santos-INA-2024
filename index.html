@@ -1102,14 +1102,7 @@
 <svg width="350" height="350">
     <defs>
         <filter id="shadow" x="-20%" y="-20%" width="150%" height="150%">
-            <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
-            <feOffset dx="0" dy="0" result="offsetblur" />
-            <feFlood flood-color="rgba(0,0,0,0.2)" />
-            <feComposite in2="offsetblur" operator="in" />
-            <feMerge>
-                <feMergeNode />
-                <feMergeNode in="SourceGraphic" />
-            </feMerge>
+            <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="rgba(0,0,0,0.2)" />
         </filter>
     </defs>
     <circle class="cfondo" r="120" cx="50%" cy="50%" pathlength="100" filter="url(#shadow)"></circle>
@@ -1119,6 +1112,7 @@
         font-family="Supreme" font-weight="700">0%</text>
     <text x="50%" y="67%" text-anchor="middle" font-size="25px" font-weight="600" font-family="Supreme">Técnicos</text>
 </svg>
+
 
                     </div>
                 </div>
