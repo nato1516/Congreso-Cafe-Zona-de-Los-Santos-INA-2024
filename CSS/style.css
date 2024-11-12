@@ -3341,6 +3341,9 @@ footer a {
     }
 }
 @media (max-width: 370px) {
+    .texto_diferente_2{
+        font-size: 27px;
+    }
     .inquietudes {
         height: 1550px;
     }
