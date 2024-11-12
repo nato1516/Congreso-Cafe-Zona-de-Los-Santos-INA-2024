@@ -1315,10 +1315,14 @@ span {
 /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 COMENTARIOS
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+.comentarios {
+    display: none; /*IMPORTANTE: CUANDO A ESTA SECCION SE LE QUITA EL DISPLAY NONE, VAN A LA SECCION COLABORADORES Y PONEN LA PROPIEDAD DE MARGIN TOP(SE QUITO PARA QUE NO DEJE UN ESPACIO EN BLANCO EN LA PANTALLA)*/
+    background-color: var(--Color-Fondo-Oscuro);
+}
+
 .container-comentarios {
     width: 75%;
     margin: 0 auto;
-    display: none;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 25px 0px;
@@ -1330,9 +1334,7 @@ COMENTARIOS
     text-align: center;
     padding: 20px 0px;
 }
-.comentarios {
-    background-color: var(--Color-Fondo-Oscuro);
-}
+
 .card-comentario {
     background-color: var(--Color-Fondo-Claro);
     width: 343px;
@@ -1634,7 +1636,7 @@ COLABORADORES
     font-family: "ranade",sans-serif;
     font-size: 48px;
     color: #261B15;
-    margin-top: 78px;
+    /*margin-top: 78px;*/ /*ESTE ES EL MARGIN QUE SE TIENE QUE PONER NUEVAMENTE DESPUES DE QUE SE LE QUITE EL DISPLAY NONE A LA SECCION DE COMENTARIOS*/
     font-weight: 700;
 }
 .contenido_colaboradores{
