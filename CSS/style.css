@@ -1348,6 +1348,9 @@ PREGUNTAS FRECUENTES
 }
 .titulo-inq {
     margin-top: 100px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Ranade', sans-serif;
 }
 .inq-text {
     font-family: var(--Fuente-Parrafos);
