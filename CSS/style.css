@@ -1625,7 +1625,7 @@ COLABORADORES
 /*============================= INICIO SECCION COLABORADORES =====================================*/
 .colaboradores{
     background-color: var(--Color-Fondo-Claro);
-    border:1px solid var(--Color-Detalles);
+    border-bottom:1px solid var(--Color-Detalles);
 }
 .colaboradores_titulo{
     font-family: "ranade",sans-serif;
