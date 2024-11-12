@@ -869,7 +869,7 @@ a {
 }
 
 .card-expositores-movil {
-    background-color: #ca873b;
+    background: url(../img/Fondo-expositores.png);
     background-repeat: repeat-x;
     background-size: cover;
     background-position: center;
