@@ -392,8 +392,9 @@ QUIENES SOMOS SOBRE NOSOTROS
     height: 100vh;
 }
 .text__cont h2{
-    font-family: 'Ranade';
-    font-weight: bold;
+    font-family: var(--Fuente-H2);
+    font-weight: var(--Font-Bold);
+    text-transform: uppercase;
 }
 .text__cont p{
     font-family: 'Supreme';
