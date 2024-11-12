@@ -2646,7 +2646,8 @@ footer a {
         padding-right: 0px !important;
         position: relative;
         margin: 0 auto;
-        gap: 17px;
+        gap: 0px;
+        min-height: 700px;
     }
     /*=== FIN ESTE ES EL CONTENEDOR DE TODO LO QUE ETA DENTRO DEL CARROUSEL: TEXTOS,GRANOS,IMAGEN ===*/
     /*========================================= TEXTOS DE BANNER ====================================================*/
@@ -3120,10 +3121,10 @@ footer a {
         max-height: 270px;
     }
     .texto_diferente_2{
-        font-size: 23px;
+        font-size: 29px;
     }
     .texto-carousel_3 h1{
-        font-size: 23px;
+        font-size: 29px;
     }
 }
 @media (max-width: 430px) {
