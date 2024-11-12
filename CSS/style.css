@@ -874,7 +874,7 @@ a {
     background-size: cover;
     background-position: center;
     width: 523px;
-    height: 220px;
+    height: 230px;
     position: relative;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -2391,6 +2391,7 @@ footer a {
         width: 60%;
         display: flex;
         justify-content: center;
+        
     }
       .card- {
         background: url(../img/Fondo-expositores.png);
