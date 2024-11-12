@@ -1148,10 +1148,10 @@ GALERIA
 }
 .titulo_banner_1 {
     color: #FFF;
-    font-family: Ranade;
+    font-family: 'Ranade', sans-serif;
     font-size: 500px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     line-height: normal;
     opacity: 0.34;
     margin: 0 auto;
