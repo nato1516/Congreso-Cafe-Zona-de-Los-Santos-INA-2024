@@ -1693,6 +1693,9 @@ footer a {
     .coffee-bean-4 {
         display: none;
     }
+    .overlay-right{
+        transform: translateX(775px);
+    }
 }
 @media (max-width: 1467px) {
     h2 {
