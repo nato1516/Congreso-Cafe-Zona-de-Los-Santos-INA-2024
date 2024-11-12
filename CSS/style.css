@@ -1206,8 +1206,8 @@ GALERIA
 }
 .botones a {
     color: var(--Color-Fondo-Claro);
-    font-family: 'Ranade', sans-serif;
-    font-size: var(--Fuente-Botones);
+    font-family: var(--Fuente-Botones);
+    font-size: var(--Tamano-fuente-boton-web);
 }
 .botones a:hover {
     color: var(--Color-Fondo-Claro);
