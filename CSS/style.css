@@ -1320,7 +1320,7 @@ COMENTARIOS
 .container-comentarios {
     width: 75%;
     margin: 0 auto;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 25px 0px;
