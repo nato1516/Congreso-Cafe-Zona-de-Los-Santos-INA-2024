@@ -1164,8 +1164,7 @@ GALERIA
     line-height: normal;
     text-transform: uppercase;
     width: 80%;
-    /* margin: 0 auto;
-    padding: 0; */
+    padding-top: 100px
 }
 .botones {
     margin: 0 auto;
