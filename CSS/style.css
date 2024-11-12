@@ -2608,6 +2608,12 @@ footer a {
         height: 100px;
         margin-bottom: 8px;
     }
+    .colaboradores h2{
+        font-size: 30px !important;
+    }
+    .nucleo h2{
+        font-size: 25px !important;
+    }
 }
 @media (max-width: 768px) {
     .titulo_movil {
