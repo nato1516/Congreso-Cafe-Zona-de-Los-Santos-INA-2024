@@ -2373,7 +2373,7 @@ footer a {
     .info-expo-movil{
         justify-content: space-between;
         display: flex;
-        flex-direction: rowX;
+        flex-direction: row;
     }
     .EXPOSITORES-movil {
         display: block;
