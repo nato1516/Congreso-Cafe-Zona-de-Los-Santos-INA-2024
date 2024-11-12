@@ -2378,8 +2378,9 @@ footer a {
         font-size: 30px;
     }
     .EXPOSITORES-movil {
-        justify-content: space-between;
+        justify-content: center;
         display: flex;
+        flex-direction: column;
     }
     .CARDSS {
         width: 60%;
