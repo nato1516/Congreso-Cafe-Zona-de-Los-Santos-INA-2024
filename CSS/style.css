@@ -397,8 +397,9 @@ QUIENES SOMOS SOBRE NOSOTROS
     text-transform: uppercase;
 }
 .text__cont p{
-    font-family: 'Supreme';
+    font-family: var(--Fuente-Parrafos);
     text-align: justify;
+    font-size: 25px;
 }
 .squares__cont{
     display: flex;
